@@ -31,7 +31,7 @@ export default class CCRnm extends NavigationMixin(LightningElement) {
     }
 
 
-    handleSuccess(event) {
+    handleSuccess(event) { 
         const even = new ShowToastEvent({
             title: 'Success!',
             message: 'Opportunity Updated!',
